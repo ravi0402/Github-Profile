@@ -29,7 +29,6 @@ export default class Filters extends Component {
     }
 
     filterSet = (filterType, filterInfo) => {
-        console.log(filterInfo);
 
         this.props.filterRepos(filterType, filterInfo);
         this.setState({

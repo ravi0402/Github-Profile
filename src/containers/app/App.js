@@ -15,8 +15,6 @@ import Repository from '../../components/Repository/Repository';
 import './App.css';
 import TABS from '../../constants';
 
-const tabs = ['Overview', 'Repositories', 'Stars', 'Followers', 'Following'];
-
 class App extends Component {
 	constructor(props) {
 		super(props);
@@ -62,7 +60,6 @@ class App extends Component {
 	render() {
 
 		const { userInfo } = this.state.userInformation;
-
 
 		return (
 			<div>
