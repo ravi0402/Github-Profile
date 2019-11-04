@@ -1,0 +1,28 @@
+.repository-section {
+    border-bottom: 1px #e1e4e8 solid;
+    padding: 24px 0;
+}
+
+.repository-info {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.repository-info>span {
+    margin-right: 1pc;
+}
+
+.repository-info>span>svg {
+    float: left;
+    margin-right: 5px;
+}
+
+.repository-fork_url {
+    font-size: 9pt;
+}
+
+.repository-description {
+    color: #586069;
+    font-size: 14px;
+}

@@ -1,0 +1,40 @@
+.tab-content {
+    padding: 16px 8px;
+    margin-right: 16px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #586069;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-content-active {
+    border-bottom: 2px solid #e36209;
+    font-weight: 700;
+}
+
+.tab-content:hover {
+    color: #24292e;
+    text-decoration: none;
+    border-bottom-color: #d1d5da;
+    transition: 0.2s ease;
+    border-bottom: 2px solid #cac1c1;
+    cursor: pointer;
+}
+
+.tab-content-active:hover {
+    border-bottom: 2px solid #e36209;
+}
+
+.count {
+    margin-left: 6px;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    color: #586069;
+    background-color: rgba(27, 31, 35, .08);
+    border-radius: 20px;
+}
